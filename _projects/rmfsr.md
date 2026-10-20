@@ -2,7 +2,7 @@
 layout: page
 title: RMFSR
 description: Experimental MeanFlow speech restoration in PyTorch.
-importance: 2
+importance: 3
 ---
 
 An independent experimental implementation of MeanFlow speech restoration, with PyTorch models, streaming inference, training pipelines, and evaluation tools.

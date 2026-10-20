@@ -2,7 +2,7 @@
 layout: page
 title: ELBO in Lean 4
 description: Formalizing the evidence lower bound in Lean.
-importance: 3
+importance: 4
 ---
 
 A Lean 4 formalization of the evidence lower bound for finite, strictly positive distributions, including the ELBO decomposition and equality at the exact posterior.

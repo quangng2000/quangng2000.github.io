@@ -13,13 +13,17 @@ latest_posts:
 
 I'm Quang Nguyen. My focus is machine learning research.
 
-This site brings together my open-source projects and research explorations, from transformer implementations and speech restoration to the mathematical foundations of machine learning.
+This site brings together my open-source projects and research explorations, from compiling programs into transformers and speech restoration to the mathematical foundations of machine learning.
 
 ## Selected work
 
-**[Riftco Transformer](https://github.com/quangng2000/riftco-transformer)**
+**[Cajal Compiler to Transformer Heads](https://github.com/quangng2000/riftco-transformer)**
 
-A transformer framework with a C++ execution engine and Python workflows for training, evaluation, and serving.
+Compiles typed Cajal-lite programs into programmed linear-attention heads and combines them with learned transformer components.
+
+**[TEMF + WavJEPA-Nat (FiLM)](https://github.com/quangng2000/temf-wavjepa-film)**
+
+A speech-restoration research prototype combining frozen WavJEPA-Nat features, FiLM conditioning, and TEMF mean-flow generation.
 
 **[RMFSR](https://github.com/quangng2000/rmfsr)**
 
