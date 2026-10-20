@@ -16,6 +16,7 @@ permalink: /
   <section class="research-intro" aria-labelledby="short-bio">
     <h2 class="research-section-heading" id="short-bio">Short bio</h2>
     <p>I'm Quang Nguyen. My research explores how symbolic structure and learned representations can work together in machine learning.</p>
+    <p>I'm also a <strong>contributor and maintainer of <a href="https://github.com/midspiral/LemmaScript">LemmaScript</a></strong>, a verification toolchain for TypeScript.</p>
     <p>I build research software connecting typed programs to transformers, generative models to speech restoration, and formal proofs to the mathematical foundations of learning. My current work includes the Cajal compiler, TEMF with WavJEPA and FiLM conditioning, language-model steering with learned twisting functions and sequential Monte Carlo, and an ELBO formalization in Lean 4.</p>
   </section>
 
