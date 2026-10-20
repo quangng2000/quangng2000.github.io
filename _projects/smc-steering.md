@@ -5,7 +5,7 @@ description: Probabilistic language-model steering with contrastive twist learni
 importance: 3
 summary: Inference-time language-model steering with learned twisting functions, importance weighting, and adaptive sequential Monte Carlo resampling.
 preview: /assets/img/research/smc-steering.svg
-preview_alt: A learned twisting function guides token-particle proposals, followed by importance weighting and adaptive resampling.
+preview_alt: A learned twisting function guides sequence proposals, followed by importance weighting and adaptive resampling.
 preview_width: 520
 preview_height: 320
 ---
