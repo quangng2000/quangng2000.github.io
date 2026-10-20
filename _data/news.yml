@@ -1,0 +1,5 @@
+- date: "2026-10-20"
+  title: Lean-verified learning for protected representations
+  url: https://github.com/quangng2000/hjepa-lean#an-optimizer-now-learns-the-protected-encoder
+  summary: >-
+    Added proofs that gradient descent learns protected linear encoders and that a specified IID SGD update halves expected population task risk at each step, alongside a counterexample where joint encoder–decoder training gets stuck. These results cover finite linear models with a frozen, already-perfect predictive branch; full nonlinear H-JEPA convergence remains open.

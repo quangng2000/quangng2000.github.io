@@ -30,6 +30,21 @@ permalink: /
     </ul>
   </section>
 
+{% if site.data.news and site.data.news.size > 0 %}
+
+  <section aria-labelledby="news">
+    <h2 class="research-section-heading" id="news">News</h2>
+    {% assign news_items = site.data.news | sort: 'date' | reverse %}
+    {% for item in news_items %}
+    <p>
+      <time datetime="{{ item.date | date: '%Y-%m-%d' }}" class="text-muted">{{ item.date | date: '%b %-d, %Y' }}</time>
+      — <a href="{{ item.url | escape }}">{{ item.title | escape }}</a><br>
+      {{ item.summary | escape }}
+    </p>
+    {% endfor %}
+  </section>
+  {% endif %}
+
   <section aria-labelledby="selected-work">
     <h2 class="research-section-heading" id="selected-work">Selected work</h2>
 <div class="research-list">

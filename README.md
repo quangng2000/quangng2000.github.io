@@ -10,6 +10,7 @@ Personal website for ML research, built with [al-folio v1.2](https://github.com/
 | ----------------------------------------- | -------------------------- |
 | Name, description, and site settings      | `_config.yml`              |
 | Homepage biography and research interests | `_pages/about.md`          |
+| Dated homepage news, newest first         | `_data/news.yml`           |
 | Project pages                             | `_projects/*.md`           |
 | GitHub and other social links             | `_data/socials.yml`        |
 | Publication entries, when ready           | `_bibliography/papers.bib` |
