@@ -1,7 +1,7 @@
 # Research image sources
 
 These assets illustrate Quang Nguyen's linked projects. Repository images are
-copied without modification; the two SVGs are original diagrams of documented
+copied without modification; the SVGs are original diagrams of documented
 project concepts.
 
 ## TEMF + WavJEPA-Nat (FiLM)
@@ -52,3 +52,15 @@ project concepts.
 - It shows the exact ELBO decomposition and resulting lower bound for finite,
   strictly positive distributions. The graphic makes no claim about continuous
   distributions, model training, or numerical experiments.
+
+## SMC steering
+
+- File: `smc-steering.svg` (520 × 320).
+- Original conceptual diagram for the owner's local `smc-steering` research
+  prototype, documented in its README as “CTL and twisted SMC with GPT-2 Medium
+  and Laya.”
+- Shows learned-twist proposals, importance weighting, and adaptive particle
+  resampling. Particle sizes and paths are schematic, not experimental results.
+- No public repository has been identified for this project. The project entry
+  links to its website overview, not to an unrelated SMC repository or the
+  reference authors' implementation.

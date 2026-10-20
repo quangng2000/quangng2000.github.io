@@ -2,7 +2,7 @@
 layout: page
 title: ELBO in Lean 4
 description: Formalizing the evidence lower bound in Lean.
-importance: 4
+importance: 5
 summary: A Lean 4 formalization of the evidence lower bound for finite, strictly positive distributions, including the ELBO decomposition.
 preview: /assets/img/research/lean-elbo.svg
 preview_alt: Log evidence equals the evidence lower bound plus the KL divergence to the exact posterior.

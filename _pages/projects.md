@@ -26,9 +26,9 @@ nav_order: 1
       <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
       <p class="research-summary">{{ project.summary }}</p>
       <p class="research-links">
-        <a href="{{ project.code_url }}">code</a>
-        {% if project.docs_url %}<span class="separator" aria-hidden="true">·</span><a href="{{ project.docs_url }}">documentation</a>{% endif %}
-        <span class="separator" aria-hidden="true">·</span><a href="{{ project.url | relative_url }}">project details</a>
+        {% if project.code_url %}<a href="{{ project.code_url }}">code</a><span class="separator" aria-hidden="true">·</span>{% endif %}
+        {% if project.docs_url %}<a href="{{ project.docs_url }}">documentation</a><span class="separator" aria-hidden="true">·</span>{% endif %}
+        <a href="{{ project.url | relative_url }}">project details</a>
       </p>
     </div>
   </article>
