@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="320" viewBox="0 0 520 320" role="img" aria-labelledby="title description">
+  <title id="title">Cajal compiler pipeline</title>
+  <desc id="description">A Cajal-lite program passes through a linear type checker and a multilinear map to programmed linear attention.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b" />
+    </marker>
+  </defs>
+  <rect x="1" y="1" width="518" height="318" rx="14" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2" />
+  <g stroke="#64748b" stroke-width="2.5" marker-end="url(#arrow)">
+    <path d="M260 75 V91" />
+    <path d="M260 149 V165" />
+    <path d="M260 223 V239" />
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <rect x="62" y="18" width="396" height="56" rx="8" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+    <text x="260" y="55" fill="#1e3a8a" font-size="27" font-weight="600">Cajal-lite program</text>
+    <rect x="62" y="92" width="396" height="56" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2" />
+    <text x="260" y="129" fill="#1e3a8a" font-size="27" font-weight="600">Linear type checker</text>
+    <rect x="62" y="166" width="396" height="56" rx="8" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2" />
+    <text x="260" y="203" fill="#1e3a8a" font-size="27" font-weight="600">Multilinear map</text>
+    <rect x="62" y="240" width="396" height="62" rx="8" fill="#1e3a8a" />
+    <text x="260" y="266" fill="#ffffff" font-size="25" font-weight="600">Programmed</text>
+    <text x="260" y="292" fill="#ffffff" font-size="25" font-weight="600">linear attention</text>
+  </g>
+</svg>
