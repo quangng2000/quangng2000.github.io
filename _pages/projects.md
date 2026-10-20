@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research software, experiments, and formalizations.
+description: Research software, open-source contributions, and formalizations.
 nav: true
 nav_order: 1
 ---

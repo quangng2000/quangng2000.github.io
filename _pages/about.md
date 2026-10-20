@@ -31,7 +31,7 @@ permalink: /
   </section>
 
   <section aria-labelledby="selected-work">
-    <h2 class="research-section-heading" id="selected-work">Research projects</h2>
+    <h2 class="research-section-heading" id="selected-work">Selected work</h2>
 <div class="research-list">
 {% assign research_projects = site.projects | sort: 'importance' %}
 {% for project in research_projects %}

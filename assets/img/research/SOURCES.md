@@ -64,3 +64,13 @@ project concepts.
 - No public repository has been identified for this project. The project entry
   links to its website overview, not to an unrelated SMC repository or the
   reference authors' implementation.
+
+## LemmaScript
+
+- File: `lemmascript.svg` (520 × 320).
+- Original conceptual diagram based on the [official project README](https://github.com/midspiral/LemmaScript)
+  and [project website](https://lemmascript.org/).
+- Shows annotated TypeScript and the Dafny and Lean 4 verification backends.
+  This is a workflow illustration, not an official logo or a verification result.
+- The diagram does not imply that all TypeScript is supported or that proofs are
+  automatically completed. LemmaScript is a tech preview.
