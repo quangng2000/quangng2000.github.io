@@ -4,6 +4,14 @@ These assets illustrate Quang Nguyen's linked projects. Repository images are
 copied without modification; the SVGs are original diagrams of documented
 project concepts.
 
+## H-WavJEPA
+
+- File: `h-wavjepa-three-latent-spaces.png` (1586 × 992).
+- Unmodified copy of the [project's architecture figure](https://github.com/quangng2000/h-wavjepa/blob/main/docs/figures/h-wavjepa-three-latent-spaces.png).
+- Generated with the built-in image-generation tool from a user-supplied WavJEPA figure, then revised to correct EMA and loss arrow directions.
+- Context: [repository README](https://github.com/quangng2000/h-wavjepa) and [implemented architecture](https://github.com/quangng2000/h-wavjepa/blob/main/docs/ARCHITECTURE.md).
+- The figure illustrates a **proposed three-space forecasting design**. Its 80 / 320 / 1,280 ms horizons and token counts are illustrative; the published prototype uses masked prediction. It is not a benchmark result or evidence of learned semantic specialization.
+
 ## TEMF + WavJEPA-Nat (FiLM)
 
 - File: `temf-wavjepa-film.gif` (800 × 600).
