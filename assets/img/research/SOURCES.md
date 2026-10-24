@@ -4,6 +4,18 @@ These assets illustrate Quang Nguyen's linked projects. Repository images are
 copied without modification; the SVGs are original diagrams of documented
 project concepts.
 
+## RE-USE Apple
+
+- File: `reuse-apple.svg` (520 × 320).
+- Original conceptual diagram based on the [port's README](https://github.com/quangng2000/reuse-apple)
+  and [validation notes](https://github.com/quangng2000/reuse-apple/blob/main/docs/validation.md).
+- Shows recorded audio passing through the shared Swift/MLX/Metal inference engine
+  and the Mac and iPhone/iPad interfaces. This is a workflow illustration, not an
+  audio measurement, benchmark chart, or official NVIDIA or Apple graphic.
+- The 9.61M-parameter pretrained model is NVIDIA NemotronLabs RE-USE. GPU inference
+  is verified on M4 Pro; the mobile target compiles but physical-device validation
+  is pending.
+
 ## H-WavJEPA
 
 - File: `h-wavjepa-three-latent-spaces.png` (1586 × 992).

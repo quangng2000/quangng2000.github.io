@@ -1,3 +1,8 @@
+- date: "2026-10-23"
+  title: RE-USE speech enhancement on Apple silicon
+  url: /projects/reuse-apple/
+  summary: >-
+    Released an independent Swift/MLX/Metal port of NVIDIA NemotronLabs RE-USE, with verified M4 Pro GPU inference, a Mac CLI, and an iPhone/iPad app target. Physical iPhone/iPad testing is pending.
 - date: "2026-10-20"
   title: Lean-verified learning for protected representations
   url: https://github.com/quangng2000/hjepa-lean#an-optimizer-now-learns-the-protected-encoder
